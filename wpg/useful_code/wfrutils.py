@@ -13,8 +13,8 @@ sys.path.insert(0, os.path.join('..','..'))
 
 from wpg import Wavefront, Beamline
 # from srwlib import *
-import wpg.srwlib
-from wpg.srwlib import srwl
+import srwlib
+from srwlib import srwl
 
 
 def print_beamline(bl):
